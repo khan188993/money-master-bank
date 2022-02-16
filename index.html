@@ -20,16 +20,24 @@
                 <div class="col">
                     <div class="bank-calculator">
                         <h1 class="income">Your Income:</h1>
-                        <input type="text" id="total-income" placeholder="Enter Your Income Amount">
+                        <div class="total-income">
+                            <input type="text" id="total-income" placeholder="Enter Your Income Amount">
+                        </div>
                         <h1 class="expanse">Expanses List:</h1>
-                        <input type="text" id="food-expanse" placeholder="Enter Your Food Expense">
-                        <span class="d-none" id="waring">Please Give Input Value Properly</span>
-                        <input type="text" id="rent-expanse" placeholder="Enter Your Rent Expense">
-                        <input type="text" id="clothes-expanse" placeholder="Enter Your Clothes Expense">
-                        <button id="expanse-calculate">Calculate</button>
+                        <div class="food">
+                            <input type="text" id="food-expanse" placeholder="Enter Your Food Expense">
+                        </div>
+                        <div class="rent">
+                            <input type="text" id="rent-expanse" placeholder="Enter Your Rent Expense">
+                        </div>
+                        <div class="clothes">
+                            <input type="text" id="clothes-expanse" placeholder="Enter Your Clothes Expense">
+                        </div>
+                        <!-- <span class="d-none" id="waring">Please Give Input Value Properly</span> -->
+                        <button id="calculate">Calculate</button>
                         <div class="calculated-result">
-                            <h3>Total Expenses: <span id="total-expanse">1000</span></h3>
-                            <h3>Total Expenses: <span id="net-balance">5000</span></h3>
+                            <h3>Total Expenses: <span id="total-expanse">0</span></h3>
+                            <h3>Net Balance: <span id="net-balance">0</span></h3>
                         </div>
                         <div class="saving-calculate">
                             <span>Your Savings:</span>
@@ -37,8 +45,8 @@
                             <button id="savings">Save</button>
                         </div>
                         <div class="remaining-balance">
-                            <h3>Saving Amount: <span id="saving-money">3000</span></h3>
-                            <h3>Remaining Balance: <span id="remaining-balance">7000</span></h3>
+                            <h3>Saving Amount: <span id="saving-money">0</span></h3>
+                            <h3>Remaining Balance: <span id="remaining-balance">0</span></h3>
                         </div>
         
                     </div>

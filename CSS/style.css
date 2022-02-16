@@ -1,17 +1,21 @@
 /* Global CSS */
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     color: #ffffff;
 }
+
 body {
     background-color: #030a2c;
 }
+
 img {
     width: 100%;
     height: auto;
 }
+
 input,
 button {
     outline: none;
@@ -26,13 +30,16 @@ section {
     margin: auto;
     padding: 0 15px;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
 }
-.col{
+
+.col {
     width: 50%;
 }
+
 input {
     display: block;
     width: 100%;
@@ -46,26 +53,36 @@ input {
     font-size: 18px;
 }
 
-.d-none{
-    display:none;
+.d-none {
+    display: none;
 }
 
+
 /* Main CSS */
+
+button#savings {
+    margin-bottom: 12px;
+}
 
 #e-wallet .title {
     text-align: center;
     font-size: 60px;
     color: #90e1a8;
     margin-bottom: 40px;
+    text-transform: lowercase;
 }
 
 .bank-calculator h1 {
     font-size: 35px;
 }
 
-#waring {
-    color: red;
+#warning {
+    color: orange;
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
 }
+
 .bank-calculator {
     padding-right: 100px;
 }
@@ -87,6 +104,7 @@ button {
     font-size: 22px;
     text-transform: uppercase;
 }
+
 .calculated-result,
 .remaining-balance {
     display: flex;
@@ -106,6 +124,7 @@ button {
     display: inline-block;
     width: auto;
 }
+
 .saving-calculate span {
     color: aqua;
     font-size: 26px;
@@ -116,12 +135,18 @@ button {
     margin: 0;
 }
 
-.calculated-result h3,.remaining-balance h3 {
+.calculated-result h3,
+.remaining-balance h3 {
     margin-bottom: 20px;
     color: aqua;
 }
-#total-expanse, #net-balance, #saving-money,#remaining-balance {
+
+#total-expanse,
+#net-balance,
+#saving-money,
+#remaining-balance {
     color: orange;
 }
+
 
 /* Responsive CSS */

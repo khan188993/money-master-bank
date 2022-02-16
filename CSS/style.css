@@ -46,6 +46,10 @@ input {
     font-size: 18px;
 }
 
+.d-none{
+    display:none;
+}
+
 /* Main CSS */
 
 #e-wallet .title {

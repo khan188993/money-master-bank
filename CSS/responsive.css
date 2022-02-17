@@ -1,33 +1,31 @@
 /* desktop :1200px. md */
+
 @media (max-width: 1300px) {
     .container {
-      max-width: 992px;
-      
+        max-width: 992px;
     }
- 
-  }
-  
-  /* Tablet desktop :768px. md */
-  @media (max-width: 992px) {
+}
+
+
+/* Tablet desktop :768px. md */
+
+@media (max-width: 992px) {
     .container {
-      max-width: 750px;
+        max-width: 750px;
     }
-    .row{
+    .row {
         flex-direction: column-reverse;
         align-items: center;
     }
-    .col{
+    .col {
         width: 100%;
     }
-
     #e-wallet .title {
         font-size: 36px;
-
     }
     .bank-calculator {
         padding-right: 0px;
     }
-   
     .saving-calculate {
         flex-direction: column;
     }
@@ -38,28 +36,28 @@
     #saving-percentage {
         margin: 30px 0;
     }
- 
-  }
-  
-  /* small mobile :320px. ex-sm */
-  @media (max-width: 768px) {
-    .container {
-      width: 568px;
-    }
+}
 
-  
-  }
-  
-  /* Large Mobile :480px. sm */
-  @media (max-width: 556px) {
+
+/* small mobile :320px. ex-sm */
+
+@media (max-width: 768px) {
+    .container {
+        width: 568px;
+    }
+}
+
+
+/* Large Mobile :480px. sm */
+
+@media (max-width: 556px) {
     .container {
         width: 100%;
-      }
-
-      #e-wallet .title {
+    }
+    #e-wallet .title {
         font-size: 30px;
     }
     .bank-calculator h1 {
         font-size: 28px;
     }
-  }
+}

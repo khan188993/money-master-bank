@@ -39,7 +39,7 @@
 }
 
 
-/* small mobile :320px. ex-sm */
+/* large mobile :568px. ex-sm */
 
 @media (max-width: 768px) {
     .container {
@@ -48,7 +48,7 @@
 }
 
 
-/* Large Mobile :480px. sm */
+/* Small Mobile :480px. sm */
 
 @media (max-width: 556px) {
     .container {
